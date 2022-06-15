@@ -73,14 +73,26 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    word-break:keep-all;
 }
 
 .foldieden_title {
     font-size: 200%;
+    word-break:keep-all;
 }
 
 h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main_container{
+    font-size: clamp(10px, 2vw, 15px);
+    word-break:break-word;
+}
+
+.logo{
+min-width: 10%;
+max-width: 30%;
 }

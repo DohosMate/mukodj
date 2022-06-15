@@ -4,10 +4,10 @@ import logo from "./hamarosan_nyitunk.jpg";
 
 function App() {
   return (
-    <div>
-      <p className="welcome">Üdvözlünk a _<p className='foldieden_title'>Földi Éden_</p>Webáruházában!</p>
+    <div className='main_container'>
+      <p className="welcome">Üdvözlünk a  <p className='foldieden_title'>_Földi_Éden_</p>Webáruházában!</p>
     <div className='picture_container'>
-      <img src={logo} width={500} height={500} alt="" />
+      <img src={logo} className="logo" alt="" />
     </div>
     <footer>
       <p className="line anim-typewriter">Hamarosan nyitunk: 2022.09.01</p>
